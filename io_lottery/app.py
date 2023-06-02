@@ -1,6 +1,6 @@
 from flask import Flask, Response, request, jsonify
 
-from io_lottery.controllers import AddUserController, AddUserRequest, GetUserController
+from io_lottery.controllers import add_user_controller,get_user_controller,update_user_controller,delete_user_controller
 from io_lottery.repositories import UserRepository
 from io_lottery.views import UserView
 
